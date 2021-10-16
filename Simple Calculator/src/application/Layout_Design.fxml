@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="388.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="btn1" layoutX="14.0" layoutY="188.0" mnemonicParsing="false" onAction="#one" onMouseEntered="#oneE" onMouseExited="#oneO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="1">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDvd" layoutX="284.0" layoutY="188.0" mnemonicParsing="false" onAction="#devide" onMouseEntered="#DveE" onMouseExited="#DvdO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="/">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="104.0" layoutY="188.0" mnemonicParsing="false" onAction="#two" onMouseEntered="#twoE" onMouseExited="#twoO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="2">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="194.0" layoutY="188.0" mnemonicParsing="false" onAction="#three" onMouseEntered="#ThreeE" onMouseExited="#threeO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txt" alignment="CENTER_RIGHT" layoutX="15.0" layoutY="69.0" prefHeight="111.0" prefWidth="358.0" style="-fx-background-color: WHITE;">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font></TextField>
+      <Button fx:id="btn4" layoutX="14.0" layoutY="243.0" mnemonicParsing="false" onAction="#four" onMouseEntered="#fourE" onMouseExited="#fourO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="4">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMul" layoutX="284.0" layoutY="243.0" mnemonicParsing="false" onAction="#Multi" onMouseEntered="#mulE" onMouseExited="#mulO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="x">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" layoutX="104.0" layoutY="243.0" mnemonicParsing="false" onAction="#five" onMouseEntered="#fiveE" onMouseExited="#fiveO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn6" layoutX="194.0" layoutY="243.0" mnemonicParsing="false" onAction="#six" onMouseEntered="#sixE" onMouseExited="#sixO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="6">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn7" layoutX="14.0" layoutY="298.0" mnemonicParsing="false" onAction="#seven" onMouseEntered="#sevenE" onMouseExited="#sevenO" onMouseMoved="#sevenO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="7">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMinus" layoutX="284.0" layoutY="298.0" mnemonicParsing="false" onAction="#Sub" onMouseEntered="#minusE" onMouseExited="#minusO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="-">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn8" layoutX="104.0" layoutY="298.0" mnemonicParsing="false" onAction="#eight" onMouseEntered="#eightE" onMouseExited="#eightO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="8">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn9" layoutX="194.0" layoutY="298.0" mnemonicParsing="false" onAction="#nine" onMouseEntered="#nineE" onMouseExited="#nineO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="9">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDeci" layoutX="14.0" layoutY="353.0" mnemonicParsing="false" onAction="#dec" onMouseEntered="#dotE" onMouseExited="#dotO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text=".">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAdd" layoutX="284.0" layoutY="353.0" mnemonicParsing="false" onAction="#plus" onMouseEntered="#plusE" onMouseExited="#plusO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="+">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn0" layoutX="104.0" layoutY="353.0" mnemonicParsing="false" onAction="#zero" onMouseEntered="#zeroE" onMouseExited="#zeroO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEq" layoutX="194.0" layoutY="353.0" mnemonicParsing="false" onAction="#equals" onMouseEntered="#eqE" onMouseExited="#eqO" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: WHITE;" text="=">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtHis" editable="false" layoutX="193.0" layoutY="40.0" prefHeight="29.0" prefWidth="182.0" style="-fx-background-color: white;" text="STANDARD CALCULATOR">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>
